@@ -7,6 +7,9 @@ alias activate='source env/bin/activate'
 # Install pip packages
 alias pip-req='pip install --upgrade pip && pip install -r requirements.txt'
 
+# Delete all pip packages
+alias pip-del='pip freeze | xargs pip uninstall -y'
+
 # Alias for functions framework local run
 # Usage: ff function_name
 alias ff='functions-framework-python --target'
