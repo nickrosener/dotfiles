@@ -7,6 +7,12 @@ alias activate='source env/bin/activate'
 # Install pip packages
 alias pip-req='pip install --upgrade pip && pip install -r requirements.txt'
 
+# Alias for functions framework local run
+# Usage: ff function_name
+alias ff='functions-framework-python --target'
+
+# Alias for running python unittest
+
 # Change directories to up one / two
 alias ..='cd ..'
 alias ...='cd ../..'
