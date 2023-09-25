@@ -15,6 +15,10 @@ alias pip-del='pip freeze | xargs pip uninstall -y'
 alias ff='functions-framework-python --target'
 
 # Alias for running python unittest
+alias ut='python -m unittest -v'
+
+# Alias for running black formatter on all python files
+alias form='black *.py'
 
 # Change directories to up one / two
 alias ..='cd ..'
